@@ -1,0 +1,2 @@
+Prefix plugins/LOFS/example/
+Plugin LOFS inputfile 9var outputfile output
