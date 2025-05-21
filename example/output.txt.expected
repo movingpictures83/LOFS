@@ -1,0 +1,26 @@
+digraph g {
+ "LACC" -> "RIPL" [arrowtail=none, arrowhead=normal]; 
+ "LIPL" -> "RACC" [arrowtail=none, arrowhead=normal]; 
+ "LIFG" -> "RACC" [arrowtail=none, arrowhead=normal]; 
+ "LACC" -> "LIPL" [arrowtail=none, arrowhead=normal]; 
+ "LOCC" -> "ROCC" [arrowtail=none, arrowhead=none]; 
+ "RACC" -> "RIFG" [dir=both, arrowtail=normal, arrowhead=none]; 
+ "RACC" -> "RIPL" [dir=both, arrowtail=normal, arrowhead=none]; 
+ "I" -> "LOCC" [dir=both, arrowtail=normal, arrowhead=none]; 
+ "LIFG" -> "ROCC" [dir=both, arrowtail=normal, arrowhead=none]; 
+ "LACC" -> "LIFG" [arrowtail=none, arrowhead=normal]; 
+ "I" -> "RIPL" [dir=both, arrowtail=normal, arrowhead=none]; 
+ "LIPL" -> "LOCC" [dir=both, arrowtail=normal, arrowhead=none]; 
+ "RIPL" -> "ROCC" [dir=both, arrowtail=normal, arrowhead=none]; 
+ "RACC" -> "ROCC" [dir=both, arrowtail=normal, arrowhead=none]; 
+ "I" -> "LIPL" [dir=both, arrowtail=normal, arrowhead=none]; 
+ "LIPL" -> "RIPL" [arrowtail=none, arrowhead=normal]; 
+ "LIFG" -> "LOCC" [dir=both, arrowtail=normal, arrowhead=none]; 
+ "RIFG" -> "RIPL" [dir=both, arrowtail=normal, arrowhead=none]; 
+ "LACC" -> "RACC" [arrowtail=none, arrowhead=normal]; 
+ "LIFG" -> "LIPL" [arrowtail=none, arrowhead=normal]; 
+ "LIPL" -> "RIFG" [arrowtail=none, arrowhead=normal]; 
+ "LIFG" -> "RIFG" [arrowtail=none, arrowhead=normal]; 
+ "I" -> "LACC" [dir=both, arrowtail=normal, arrowhead=none]; 
+ "LACC" -> "LOCC" [arrowtail=none, arrowhead=none]; 
+}

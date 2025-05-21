@@ -93,6 +93,8 @@ class LOFSPlugin:
 
 
   dot_str = pc.tetradGraphToDot(tetrad.getTetradGraph())
+  outf = open(outputfile+".txt", 'w')
+  outf.write(dot_str)
   graphs = pydot.graph_from_dot_data(dot_str)
   graphs[0].write_png(outputfile+".2.png")
 
